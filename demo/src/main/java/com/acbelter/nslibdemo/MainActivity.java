@@ -1,4 +1,4 @@
-package com.acbelter.nslibsample;
+package com.acbelter.nslibdemo;
 
 import android.app.Dialog;
 import android.app.ProgressDialog;
@@ -11,7 +11,6 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
-
 import com.acbelter.nslib.NetworkApplication;
 import com.acbelter.nslib.NetworkServiceCallbackListener;
 

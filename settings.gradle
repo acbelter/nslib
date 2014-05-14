@@ -1,1 +1,1 @@
-include ':sample', 'nslib'
+include 'library', 'demo'

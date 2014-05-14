@@ -1,4 +1,4 @@
-package com.acbelter.nslibsample;
+package com.acbelter.nslibdemo;
 
 import android.content.Context;
 import android.content.Intent;
@@ -7,7 +7,6 @@ import android.os.Parcel;
 import android.os.Parcelable;
 import android.os.ResultReceiver;
 import android.util.Log;
-
 import com.acbelter.nslib.command.BaseNetworkServiceCommand;
 
 import java.io.BufferedReader;
@@ -34,7 +33,7 @@ public class DownloadDataCommand extends BaseNetworkServiceCommand {
     private String downloadDataFromNetwork(Context context) {
         try {
             TimeUnit.SECONDS.sleep(5);
-            return readToString(context.getResources().openRawResource(R.raw.sample));
+            return readToString(context.getResources().openRawResource(R.raw.data));
         } catch (InterruptedException e) {
             return null;
         } catch (IOException e) {

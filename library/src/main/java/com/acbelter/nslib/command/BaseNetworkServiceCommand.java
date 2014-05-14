@@ -21,7 +21,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.os.Parcelable;
 import android.os.ResultReceiver;
-
 import com.acbelter.nslib.NetworkApplication;
 
 public abstract class BaseNetworkServiceCommand implements Parcelable {

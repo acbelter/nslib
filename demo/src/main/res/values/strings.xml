@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">NSLibSample</string>
+    <string name="app_name">NSLibDemo</string>
     <string name="get_title">Get data from network</string>
     <string name="no_data">No data.</string>
     <string name="loading">Loading...</string>

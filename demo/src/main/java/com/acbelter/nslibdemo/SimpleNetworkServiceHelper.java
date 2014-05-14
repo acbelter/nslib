@@ -1,7 +1,6 @@
-package com.acbelter.nslibsample;
+package com.acbelter.nslibdemo;
 
 import android.content.Intent;
-
 import com.acbelter.nslib.BaseNetworkServiceHelper;
 import com.acbelter.nslib.NetworkServiceCallbackListener;
 import com.acbelter.nslib.NetworkServiceHelper;

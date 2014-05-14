@@ -22,7 +22,6 @@ import android.os.IBinder;
 import android.os.Process;
 import android.os.ResultReceiver;
 import android.util.SparseArray;
-
 import com.acbelter.nslib.command.BaseNetworkServiceCommand;
 
 import java.util.concurrent.ExecutorService;

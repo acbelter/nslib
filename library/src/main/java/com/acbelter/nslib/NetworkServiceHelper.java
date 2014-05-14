@@ -1,7 +1,6 @@
 package com.acbelter.nslib;
 
 import android.content.Intent;
-
 import com.acbelter.nslib.command.BaseNetworkServiceCommand;
 
 public interface NetworkServiceHelper {

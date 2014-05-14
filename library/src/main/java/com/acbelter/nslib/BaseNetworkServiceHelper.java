@@ -23,7 +23,6 @@ import android.os.Handler;
 import android.os.Parcelable;
 import android.os.ResultReceiver;
 import android.util.SparseArray;
-
 import com.acbelter.nslib.command.BaseNetworkServiceCommand;
 
 import java.util.ArrayList;

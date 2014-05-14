@@ -13,6 +13,6 @@ android {
 }
 
 dependencies {
-    compile project(':nslib')
+    compile project(':library')
     compile 'com.android.support:appcompat-v7:+'
 }
