@@ -27,7 +27,7 @@ public abstract class BaseNetworkServiceCommand implements Parcelable {
     public static final int RESPONSE_SUCCESS = 0;
     public static final int RESPONSE_FAILURE = 1;
     public static final int RESPONSE_PROGRESS = 2;
-    public static String EXTRA_PROGRESS = NetworkApplication.PACKAGE + ".EXTRA_PROGRESS";
+    public static final String EXTRA_PROGRESS = NetworkApplication.PACKAGE + ".EXTRA_PROGRESS";
     protected volatile boolean mCancelled;
     private ResultReceiver mCallback;
 
@@ -48,6 +48,11 @@ public abstract class BaseNetworkServiceCommand implements Parcelable {
 
     protected void sendProgress(int progress) {
         Bundle data = new Bundle();
+        data.putInt(EXTRA_PROGRESS, progress);
+        sendUpdate(RESPONSE_PROGRESS, data);
+    }
+
+    protected void notifyProgress(int progress, Bundle data) {
         data.putInt(EXTRA_PROGRESS, progress);
         sendUpdate(RESPONSE_PROGRESS, data);
     }
